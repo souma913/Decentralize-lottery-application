@@ -1,0 +1,92 @@
+{
+  "contractName": "Lottery",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Lottery.sol\":\"Lottery\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Lottery.sol\":{\"keccak256\":\"0x1221733f25d446c94287591ac47253e7863f49813345c61fda5fa84f7b5035c3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5013373d39a9c1d9803c43ada066f0f9f19fb136f900c070a7840a9f1c7baa2e\",\"dweb:/ipfs/QmcGEoYmHc2teaYqcWHU13uKn69NCyUKp4BmKpBx52nWge\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203f5ab98c886ccf98ddd851bdd15fb9cd50cd6b47952df03afab6a3b9f742d1d664736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212203f5ab98c886ccf98ddd851bdd15fb9cd50cd6b47952df03afab6a3b9f742d1d664736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "68:19:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "68:19:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.5.0 <0.9.0;\r\n\r\ncontract Lottery {}\r\n",
+  "sourcePath": "D:\\LOTTERYTUTORIAL\\web3lab\\contracts\\Lottery.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Lottery.sol",
+    "exportedSymbols": {
+      "Lottery": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Lottery",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Lottery",
+        "nameLocation": "77:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "68:19:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:56:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {
+    "5": {
+      "events": {},
+      "links": {},
+      "address": "0xA969A3F56B8f8e67A4b94A1C9788E6a239d4CE0A",
+      "transactionHash": "0xd0d2573fc52a1f35f4f3fab2f544158bf4a4368c1d7c1c6b9908f358c716c691"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xA33BBf1Db1be93721a4F18c6785BD241d8d376dB",
+      "transactionHash": "0x2c57aca835652c5d527fd51e44052aa6da5ecf430ab0090ff8f005dab17fa162"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2023-11-11T05:48:13.701Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
